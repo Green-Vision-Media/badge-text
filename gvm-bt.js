@@ -30,8 +30,8 @@ const newRequest = function (render = true) {
 }
 
 const renderResult = function (r) {
-    wcID('gvm-bt_g').innerHTML = 'This page produces ' + r.c + 'g of CO<sub>2</sub>/view; '
-    wcID('gvm-bt_2').insertAdjacentHTML('beforeEnd', 'cleaner than ' + r.p + '% of pages tested.')
+    wcID('gvm-bt_g').innerHTML = 'This page produces ' + r.c + 'g of CO<sub>2</sub>/view | '
+    wcID('gvm-bt_2').insertAdjacentHTML('beforeEnd', 'Cleaner than ' + r.p + '% of pages tested.')
 }
 
 // Target selector div
