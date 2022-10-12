@@ -23,15 +23,15 @@ const newRequest = function (render = true) {
 
         // Handle error responses
         .catch(function (e) {
-            wcID('gvm-bt_g').innerHTML = 'This website runs on renewable energy.';
+            wcID('gvm-bt_g').innerHTML = 'This website runs on renewable energy  | <a href="https://greenvisionmedia.com" target="_blank">Design by Green Vision Media</a>';
             console.log(e);
             localStorage.removeItem('gvm-bt_'+wcU)
         })
 }
 
 const renderResult = function (r) {
-    wcID('gvm-bt_g').innerHTML = 'This page produces ' + r.c + 'g of CO<sub>2</sub>/view | '
-    wcID('gvm-bt_2').insertAdjacentHTML('beforeEnd', 'Cleaner than ' + r.p + '% of pages tested.')
+    wcID('gvm-bt_g').innerHTML = 'This page produces ' + r.c + 'g of CO<sub>2</sub>/view, '
+    wcID('gvm-bt_2').insertAdjacentHTML('beforeEnd', 'cleaner than ' + r.p + '% of pages tested | <a href="https://greenvisionmedia.com" target="_blank">Design by Green Vision Media</a>')
 }
 
 // Target selector div
