@@ -1,2 +1,4 @@
-# GVM Carbon Badge Text
-Just the text from the WebsiteCarbon API
+# `carbon`
+
+Adds carbon data to your text block using wholegrain digital's carbon calculator API
+[Docs page](greenvision.media/docs/scripting/#carbon)
