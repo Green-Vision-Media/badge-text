@@ -1,6 +1,6 @@
-const gulp = require('gulp'),
-    rename = require('gulp-rename'),
-    terser = require('gulp-terser');
+import gulp from 'gulp';
+import rename from 'gulp-rename';
+import terser from 'gulp-terser';
 
 function scripts() {
     return gulp
