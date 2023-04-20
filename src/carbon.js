@@ -3,7 +3,8 @@
  * Forked from https://gitlab.com/wholegrain/website-carbon-badges
  * This version has no styling, just adds the text from the wholegrain carbon badge.
  */
-{
+() => {
+    'use strict';
     let carbon = document.querySelector('.gv-carbon'),
         site = encodeURIComponent(window.location.href);
 
@@ -69,4 +70,4 @@
             newRequest();
         }
     }
-}
+};
